@@ -1,0 +1,62 @@
+:root {
+    --body-dark: (0, 0, 0, 0.5);
+    --body-light: #dcd8d8;
+    --border-dark-gray: #666;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: var(--body-light);
+    /* color: var(--body-dark); */
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    margin-top: 3%;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 3.5em;
+}
+
+h2 {
+    margin-top: 12em;
+}
+
+h3 {
+    font-weight: 900;
+    font-size: 1em;
+    text-transform: none;
+}
+
+input[type='color'] {
+    -webkit-appearance: none;
+    border: 3px solid var(--body-light);
+    border-radius: 6px;
+    padding: 0;
+    width: 42px;
+    height: 20px;
+    cursor: pointer;
+}
+input[type='color']::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+input[type='color']::-webkit-color-swatch {
+    border: none;
+}
+
+/* Random Gradient Button */
+.random {
+    margin-top: 1em;
+    border-radius: 30px;
+    padding: 14px 25px;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: var(--body-light);
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.random:hover {
+    transform: scale(1.05);
+}
